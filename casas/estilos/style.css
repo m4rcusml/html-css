@@ -8,6 +8,7 @@
     --cor-subtitulo: crimson;
 }
 body {
+    padding: 4px 16px 4px 16px;
     background-image: linear-gradient(to bottom, var(--cor-bg));
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
