@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê em CSS</title>
+    <style>
+        * { /*Esse * simboliza configurações globais das CSS e tal*/
+            height: 100%;
+        }
+        body {
+            text-align: center;
+            /*
+            Essa próxima linha faz com que o degradê funcione
+            Posso colocar quantas cores eu quiser, nesse caso eu só coloquei duas rs
+            Dá pra colocar a porcentagem ocupada da tela por cada cor tbm
+            */
+            background-image: linear-gradient(to bottom, gray 30%, white);
+
+            /*
+            Isso aqui deixa o background fixo, ou seja,
+            quando você scrolla a tela o background não mexe
+            */
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adicionando cores em degradê/gradiente</h1>
+</body>
+</html>

@@ -1,0 +1,3 @@
+O HTML5 é focado em SEMÂNTICA!!!
+É claro que você pode estilizar diretamente usando tags do html mas isso não é mais recomendado. Algumas tags ainda funcionam mas um dia vão parar de funcionar, e outras já nem funcionam mais.
+HTML é para conteúdo/semântica/significado e estilos e formas em geral são feitos pelo CSS. Animações são para JS.

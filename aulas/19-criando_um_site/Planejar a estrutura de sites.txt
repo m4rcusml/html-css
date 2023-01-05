@@ -1,0 +1,1 @@
+Para planejar a estrutura de um site eu recomento o site MockFlow (tem aplicativo tbm). Ele é tipo um Figma só que pra criar protótipos de sites.

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <hr>
+    <p>Dependendo do tamanho da tela do seu dispositivo ou navegador, a imagem se adapta, ou muda tlg.</p>
+    <p>Mude o tamanho da janela do seu navegador ou teste abrindo esse site em outros dispositivos para ver o comportamento da imagem a seguir.</p>
+    <picture>
+        <source media="(max-width: 530px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 730px)" srcset="imagens/imagem-pm.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Foto grande">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Basicamente é só entrar no google fonts, selecionar uma fonte, clicar em selected font, depois clicar em css e copiar o código que é mais ou menos assim:
+	@import url('link-da-fonte-no-google-fonts');

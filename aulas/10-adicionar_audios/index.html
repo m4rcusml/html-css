@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Inserindo áudios</h1>
+    <hr>
+    <p>É possível colocar áudios de um jeito mais simples e um jeito mais trabalhado, o trabalhado é o recomendado.</p>
+    <h2>Jeito simples</h2>
+    <p>O áudio a seguir foi adicionado somente com a tag <em>audio</em> e o parâmetro <em>controls</em>.</p>
+    <audio src="midia/yunglixo-brilhar.mp3" controls loop></audio>
+    <p>Ela fica em loop se vc usar o parâmetro <em>loop</em>.</p>
+
+    <h2>Jeito certo</h2>
+    <p>O áudio a seguir foi adicionado usando a tag <em>source:src</em> (no VS Code) dentro da tag <em>audio</em>. A tag <em>source</em> é sequencial, ela verifica a primeira linha, se não conseguir carregá-la, ela vai para a segunda e assim por diante.</p>
+    <p>Quando você clica nesse áudio, talvez ele demore pra carregar, isso é pq eu usei o seguinte: <code>preload="metadata"</code> que opta por carregar o áudio somente quando o usuário clicar, e consequentemente faz com que o site carregue mais rápido.</em></p>
+    <audio controls preload="metadata">
+        <source src="midia/virtual_insanity.mp3" type="audio/mpeg">
+        <source src="midia/virtual_insanity.ogg" type="audio/ogg">
+        <p>Seu navegador não suporta áudiokkkkkkkk</p>
+    </audio>
+    <p>Caso você queira abrir minha página sobre imagens <a href="../9-imagens_dinamicas/index.html">clique aqui</a>, bye!</p>
+</body>
+</html>

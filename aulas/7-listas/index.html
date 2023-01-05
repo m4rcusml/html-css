@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com listas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <hr>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="2">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Trocar de roupa</li>
+        <li>Go to school</li>
+        <li>Xingar o Davi (sem perder a amizade)</li>
+        <li>Voltar pra casa</li>
+        <li>Dormir</li>
+    </ol>
+
+    <h2>Listas Não Ordenadas</h2>
+    <ul type="circle"> <!-- circle, disc, square -->
+        <li>God of War
+        <li>Detroit
+        <li>House Flipper
+        <li>Stardey Valley
+        <li>Rythmn Doctor
+        <!-- Não é obrigatório fechar a tag 'li' -->
+    </ul>
+
+    <h2>Listas Mistas</h2>
+    <p>Posso colocar listas OL dentro de listas UL e vice versa:</p>
+    <h3>Linguagens que quero aprender</h3>
+    <ul>
+        <li>Web</li>
+        <ul>
+            <li>JavaScript</li>
+            <li>Php</li>
+        </ul>
+        <li>Mobile</li>
+        <ul>
+            <li>Android</li>
+            <ul>
+                <li>Java</li>
+                <li>Kotlin</li>
+            </ul>
+            <li>IOS</li>
+            <ul>
+                <li>Swift</li>
+            </ul>
+        </ul>
+        <li>O resto</li>
+        <ul>
+            <li>Python</li>
+            <li>Lua</li>
+            <li>C#</li>
+        </ul>
+    </ul>
+    <p>
+        Na lista acima eu só usei UL's mas eu poderia meter uma OL aí do nada tranquilamente, só usei UL's pra mostrar que existem níveis de itens. Quando vc coloca uma lista dentro da outra, a lista de dentro tem um símbolo diferente. 
+    </p>
+    <p>
+        Mas eu posso muito bem colocar dentro da tag UL, ou OL, um paramentro de "type" e escolher o símbolo. No caso da UL eu tenho o Square, Circle, Disc, e tal.
+        Já nas OL's eu tenho 1, A, a, I, i.
+    </p>
+
+    <h2>Listas de Definição</h2>
+    <p>As listas de definição são tipo um dicionário msm e elas seguem nessa sequencia: Termo e Descrição, ou seja, &lt; dt &gt; e &lt; dd &gt;</p>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>HTML</dt>
+        <dd>Liguagem de marcação para conteúdo na web.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para estilização na web.</dd>
+    </dl>
+</body>
+</html>

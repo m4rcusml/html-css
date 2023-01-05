@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Adicionando vídeos</h1>
+    <hr>
+    <h2>Hospedando vídeos localmente</h2>
+    <p>Não é recomendado hospedar localmente, pois isso pesa no bolso, tlg? Mas caso queira, tente diminuir o tamanho do vídeo e faça o mesmo esquema usado para adicionar áudios, só que no caso usando a tag <em>video</em>.</p>
+    <p>Olha esse video aqui, eu fiz ele pro meu trabalho de Ed. Física em 2022:</p>
+    <video width="560" controls preload="metadata" poster="imagens/thumb.jpg">
+        <source src="midia/puxavinheta.webm" type="video/webm">
+        <source src="midia/puxavinheta.mp4" type="video/mp4">
+        <p>Seu navegador não suporta reprodução de vídeos.</p>
+    </video>
+
+    <h2>Hospedando vídeos diretamente do Youtube</h2>
+    <p>Não vai pesar no seu bolso pois não faz o servidor do seu site consumir, mas sim os servidores do Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kQDPCO0qMwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>ESSA É PRA VC MSM, VOLTA PRA MIM &#x1F62D;&#x1F62D;</p>
+
+    <h2>Hospedando vídeos diretamente do Vimeo</h2>
+    <p>Esse aqui é a mesma coisa que o Youtube, mas aparentemente pra incorporar vídeo ele é melhor. Tem uma qualidade mais elevada, é mais fluido, mas tem um problema que eu não lembro agora, mas eu acho que ele acontece quando tua internet não é tão boa.</p>
+    <iframe src="https://player.vimeo.com/video/473075351?h=308d3aae5f&color=ff0179&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p>ESSA TBM É PRA VC (tenho q me recompor slk)</p>
+</body>
+</html>

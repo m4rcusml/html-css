@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores em HTML/CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-indent: 1em;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        div {
+            background-color: rgb(150, 149, 149);
+            padding: 5px;
+            border: 1px solid rgb(29, 29, 29);
+        }
+        div > p, ul {
+            display: none;
+        }
+        
+        /* esse :hover é uma das pseudoclasses que existem e dá pra fazer umas coisas poggers tipo animação e tal*/
+        div:hover > p {
+            display: block;
+            font-weight: bold;
+        }
+        div:hover > ul {
+            text-align: left;
+            display: block;
+        }
+        p#inicio {
+            display: block;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /*
+            Pseudo elementos são acessados com :: e são personalizáveis tbm.
+            Tipo tem o ::after e o ::before que vc pode adicionar coisas antes (before) e depois (after) dos links, parágrafos, etc.
+        */
+
+        /*
+            . = class
+            # = id
+            : = pseudo class
+            :: pseudo element
+            > = elementos dentro de elementos (por exemplo o 'p' dentro da 'div')
+        */
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes</h1>
+    <p>Eu até faria umas parada com id e class mas eu já sei então vou pular pra pseudoclasses pq tenho q aprender isso pq é mt legal e útil.</p>
+    <h2>Hover</h2>
+    <div>
+        <p id="inicio">Passe o mouse aqui</p>
+        <p style="color: red; text-align: center;">Quem leu é gay</p>
+        <p>
+            Pseudo Classe normalmente diz respeito a estados de elementos, no caso de links, por exemplo:
+        </p>
+        <ul>
+            <li>a:hover = diz o que acontece quando passamos o mouse em cima do link (ou qualquer outro elemento).</li>
+            <li>a:visited = diz o que acontece quando um link já foi visitado.</li>
+            <li>a:active = diz o que acontece quando um link (e provavelmente qualquer outro elemento) é clicado.</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

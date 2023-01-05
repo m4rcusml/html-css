@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <hr>
+    <h2>Formatação para códigos</h2>
+    <p>Com a tag 'code' a fonte fica mono espaçada, por exemplo:</p>
+    <code>System.out.println("Hello world");</code>
+    <p>Para que o código fique mais bonitinho, usa-se a tag 'pre' e logo dps a tag 'code'</p>
+    <pre>
+        <!-- a tag 'pre' considera TUDO, inclusive os espaços vazios e identações e tal, tanto que o espaço desse comentário tá sendo considerado na página-->
+        <code>
+    print('='*25)
+    print('Soma de 2 números em Python 3')
+    print('='*25)
+    num1 = int(input('Digite um número > '))
+    num2 = int(input('Digite outro número > '))
+    soma = num1 + num2
+    print(f'A soma de {num1} + {num2} é igual a {soma}')
+        </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+    <p>Uma vez um sábio disse: <q>TUdo na vida depende do quanto você quer comer alguém</q></p>
+
+    <h2>Citações completas</h2>
+    <p>Isso aqui serve pra sla é auto explicativo tipo imagina q eu fale <q>Ah é pq eu li um livro que o autor disse o seguinte:</q></p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Livro#Hist%C3%B3ria">A história do livro é uma história de inovações técnicas que permitiram a melhora da conservação dos volumes e do acesso à informação, da facilidade em manuseá-lo e produzi-lo. Esta história está intimamente ligada às contingências político-econômicas e à história de ideias e religiões.</blockquote>
+    <p>Entendeu né, eu acabei de criar um bloco de citação, e ainda citei o link do lugar de onde eu tirei a citação com a tag 'cite' pra ajudar os mecanismos de busca e dar os créditos e tal.</p>
+
+    <h2>Abreviações</h2>
+    <p>Eu posso fazer o seguinte com abreviações:
+        <abbr title="HyperText Markup Language">HTML</abbr> é até que legalzinho. E se vc passar o mouse em cima de HTML, ele mostra oq significa a abreviação, é só usar a tag 'abbr'.
+    </p>
+
+    <h2>Texto invertido</h2>
+    <p>Isso aqui é legal, só se liga:</p>
+    <p><bdo dir="rtl">Esse texto tá invertido agora</bdo></p>
+</body>
+</html>

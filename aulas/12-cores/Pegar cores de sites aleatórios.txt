@@ -1,0 +1,1 @@
+É só usar a extensão Colorzilla que ele já pega o código da cor e tal.

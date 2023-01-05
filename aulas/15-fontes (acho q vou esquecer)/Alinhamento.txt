@@ -1,0 +1,8 @@
+text-align: left;
+text-align: center;
+text-align: right;
+//os códigos acima alinham os textos e tal
+
+text indent: 1em;
+// o código acima é o que dá a margem no início dos textos e tal
+// o 'em' é uma medida (uma daquelas recomendadas pela w3schools), outras medidas como 'px', 'pt', 'cm', podem ser usadas tbm

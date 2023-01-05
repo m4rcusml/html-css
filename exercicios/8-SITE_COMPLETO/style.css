@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Idroid';
+    src: url('arquivos/fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte-android: 'Idroid', cursive;
+    --fonte-destaque: 'Bebas Neue';
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    font-size: small;
+}
+header {
+    background-image: linear-gradient(to bottom, #84E1AD, #144e2d);
+    color: white;
+    text-align: center;
+    padding-bottom: 0.7em;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.534);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.829);
+}
+header > h1 {
+    font-family: var(--fonte-destaque);
+}
+header > nav {
+    margin-top: 2em;
+    text-align: left;
+}
+nav > a {
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1em 1em;
+    font-size: 1em;
+    background-color: transparent;
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #19bb6f90;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+main {
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 1px 1em;
+    background-color: white;
+    border-radius: 5px 5px 15px 15px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.63);
+    text-align: center;
+}
+main > p {
+    text-align: justify;
+}
+main > h1, h2 {
+    margin: 2em;
+    text-align: left;
+    font-family: 'Idroid';
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #19bb6f93, white);
+}
+a {
+    font-weight: bold;
+    color: #1A5C38;
+    font-size: 1.1em;
+    text-decoration: none;
+    background-color: #19bb6f93;
+}
+p > a::after {
+    content: ' 📎';
+}
+a:hover {
+    text-decoration: underline;
+} 
+aside {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+aside > h3 {
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > p {
+    margin: 1em;
+}
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+footer > p {
+    margin: 0px;
+}
+strong {
+    color: #1A5C38;
+    font-size: 1.1em;
+}
+img {
+    width: 90%;
+}

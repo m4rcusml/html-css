@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Trabalhando com links</h1>
+    <hr>
+    <h2>Usando links externos</h2>
+    <p>O ideal para links externos é que eles sejam abertos em novas guias, para que o seu site não seja esquecido rs.</p>
+    <h3>Links aleatórios</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=kQDPCO0qMwI&list=PLOZDTMgJM4j0pb8kopxKjhHFmpCU6uKHi" target="_blank" rel="external">Melhor álbum sad do mundo</a></li>
+        <li><a href="https://www.youtube.com/watch?v=BpgU5AbNhxs" target="_blank" rel="external">Melhor álbum de dezembro de 2022</a></li>
+    </ul>
+    <p>OBS: Lembrar das variáveis <code>target="_blank"</code> e <code>rel="external"</code> !!!!</p>
+
+    <h2>Usando links internos</h2>
+    <p>Links internos podem sobrepor nosso site, já que eles levam para outras páginas do nosso próprio site, então eu posso simplesmente não colocar <code>target="_blank"</code> ou eu posso colocar o <code>target="_self"</code>.</p>
+    <h3>Links de navegação</h3>
+    <ul>
+        <li><a href="pag002.html" target="_self" rel="next">Próxima página</a></li>
+        <li><a href="patrocinador/bait.html" target="_self" rel="nofollow">Patrocinador</a></li>
+    </ul>
+    <p>OBS: variáveis recomendadas para links internos são <code>target="_self"</code>, <code>rel="next"</code> (para ir para próximas páginas) e <code>rel="prev"</code> (para ir para páginas anteriores).</p>
+    <p>OBS2: vc pode colocar na variável target o valor <em>nofollow</em>, não entendi muito bem pra que ele serve mas é algo sobre fazer o mecanismo de busca não associar o seu site com o site marcado com <em>nofollow</em>.</p>
+
+    <h2>Links para download</h2>
+    <p>Depende muito do navegador, por exemplo, se for um pdf, o navegador pode abrir em uma nova aba ao inves de baixar diretamente, mas se for um zip ele baixa direto.<br>
+    Enfim, as variáveis usadas para links de download são usadas dentro da tag &lt;a&gt; e elas são: <code>download="nome-do-arquivo"</code> e <code>type="application/pdf"</code> ou no lugar de pdf pode ser /zip ou no lugar disso tudo pode ser qualquer outra coisa, tem uma lista gigante de tipos, sem meme.</p>
+    <p>Vou deixar o link de um pdf completo ai p vcs verem mais sobre links: <a href="livros/10 - Ligações em toda parte.pdf" download="conteudosobrelinks.pdf" type="application/pdf">clique aqui para baixar</a></p>
+    <p>Provavelmente seu navegador abriu o pdf ao inves de baixar, mas vc pode clicar com o botão direito no link e clicar em <em>Salvar link como</em></p>
+</body>
+</html>

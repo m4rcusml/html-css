@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(26, 25, 25);
+    font-family: sans-serif;
+    margin: 0px;
+}
+header, footer {
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+}
+nav {
+    background-color: rgb(59, 58, 58);;
+    margin-bottom: 8px;
+}
+nav > a {
+    margin: 0px 7px;
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+main {
+    background-color: rgb(44, 44, 44);
+    padding: 20px 30px;
+}
+article {
+    background-color: white;
+    border-radius: 10px 30px;
+    padding: 1px 15px;
+    padding-bottom: 5px;
+    margin: auto;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.651);
+}
