@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div#conteiner {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        div.quadrado {
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        div#q1 {
+            background-color: brown;
+        }
+        div#q2 {
+            background-image: linear-gradient(to top, brown, gray);
+        }
+        div#q3 {
+            background-image: url('imagens/pattern001.png');
+        }
+    </style>
+</head>
+<body>
+    <h1>Formas de personalizar o fundo</h1>
+    <p>Dá pra personalizar tanto o fundo do body (imagem de fundo), quanto de div's e qualquer coisa parecida e tal</p>
+    <div id="conteiner">
+        <div class="quadrado" id="q1">
+
+        </div>
+        <div class="quadrado" id="q2">
+            
+        </div>
+        <div class="quadrado" id="q3">
+            
+        </div>
+    </div>
+</body>
+</html>
