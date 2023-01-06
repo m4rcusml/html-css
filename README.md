@@ -1,5 +1,4 @@
-# html-css
- <h1>Arquivos de HTML e CSS</h1>
+# Arquivos de HTML e CSS
  <p>
   Aqui estão os exercícios, anotações e projetos que fiz para aprender HTML5 e CSS3.
  </p>
