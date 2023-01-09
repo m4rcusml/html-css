@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Complexas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            border: 2px solid rgb(46, 46, 46);
+        }
+        thead, tfoot {
+            background-color: rgb(71, 71, 71);
+            color: white;
+        }
+        thead {
+            /* Isso aqui deixa o título da tabela seguindo e tal
+            preguiça de explicar, quando tu rolar a pág até o final vai ver oq esse 'sticky'*/
+            position: sticky;
+            top: -1px;
+        }
+        tr, td, th {
+            border: 1px solid black;
+        }
+        td {
+            text-align: center;
+        }
+        tbody > tr:nth-child(Odd) {
+            /* Eu tbm posso colocar números como '2n', '3n' e qualquer número acompanhado do 'n' que ele vai seguir essa sequencia*/
+            background-color: rgb(165, 165, 165);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes em HTML</h1>
+    <h2>Anatomia de tabelas grandes</h2>
+    <p>As tags a seguir são semânticas e o mais legal disso, além do fato de os mecanismos de busca lerem melhor o site, eu posso colocar esses elementos em qualquer ordem que o próprio navegador organiza. Então se eu colocar o TFoot lá em cima ou o THead lá em baixo, no site eles vão estar na ordem certa.</p>
+    <p>A propriedade <em>scope</em> pode receber os valores <em>col</em> (coluna) e <em>row</em> (linha) e elas são importantes pros mecanismos de busca e tal, é interessante usar.</p>
+    <ul>
+        <li>TABLE</li>
+        <ul>
+            <li>CAPTION</li>
+            <li>THEAD</li>
+                <ul>
+                    <li>TR</li>
+                    <li>TD</li>
+                    <li>TH</li>
+                </ul>
+            <li>TBODY</li>
+                <ul>
+                    <li>TR</li>
+                    <li>TD</li>
+                    <li>TH</li>
+                </ul>
+            <li>TFOOT</li>
+                <ul>
+                    <li>TR</li>
+                    <li>TD</li>
+                    <li>TH</li>
+                </ul>
+        </ul>
+    </ul>
+
+    <table>
+        <caption>Lista de produtos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Banana</td>
+                <td>415</td>
+            </tr>
+            <tr>
+                <td>Maça</td>
+                <td>156543</td>
+            </tr>
+            <tr>
+                <td>Uva</td>
+                <td>17835</td>
+            </tr>
+            <tr>
+                <td>Sample</td>
+                <td>1245</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>5415</td>
+            </tr>
+            <tr>
+                <td>Ipsum</td>
+                <td>3215</td>
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>173285</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td>999999</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Para adicionar o efeito zebrado é só usar a pseudoclasse <em>nth-child()</em> e colocar dentro do parênteses <abbr title="Ímpar">odd</abbr> ou <abbr title="Par">even</abbr></p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
